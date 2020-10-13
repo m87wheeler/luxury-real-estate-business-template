@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap');
+
+// *****      TYPOGRAPHY      *****
+$font: (
+  serif: 'Playfair Display',
+);
+
+// *****     BASIC COLORS     *****
+$grey: (
+  _1: #111,
+  _2: #222,
+  _3: #333,
+  _4: #444,
+  _5: #555,
+  _6: #666,
+  _7: #777,
+  _8: #888,
+  _9: #999,
+  _a: #aaa,
+  _b: #bbb,
+  _c: #ccc,
+  _d: #ddd,
+  _e: #eee,
+);
+
+$primary: rgba(225, 186, 127, 1);
+$secondary: rgba(106, 112, 110, 1);
+$confirm: rgba(27, 153, 139, 1);
+$black: rgba(8, 7, 8, 1);
+$white: rgba(255, 255, 255, 1);
+$danger: rgba(178, 58, 72, 1);
+
+// *****     EFFECTS     *****
+$shadow: (
+  default: 0 1px 3px rgba(0, 0, 0, 0.12),
+  hover: 0 14px 28px rgba(0, 0, 0, 0.25),
+);
